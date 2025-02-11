@@ -33,7 +33,7 @@
     "@typescript-eslint/eslint-plugin": "^8.2.0",
     "@typescript-eslint/parser": "^8.2.0",
     "autoprefixer": "^10.4.20",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-qwik": "^1.8.0",
     "postcss": "^8.4.41",
     "qwik-ionicons": "^1.0.5",
