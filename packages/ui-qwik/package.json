@@ -43,7 +43,7 @@
     "@builder.io/qwik": "1.12.0",
     "@builder.io/qwik-city": "^1.12.0",
     "@tailwindcss/vite": "^4.0.6",
-    "@types/eslint": "^8.56.11",
+    "@types/eslint": "^9.0.0",
     "@types/node": "^22.13.2",
     "@typescript-eslint/eslint-plugin": "^8.24.0",
     "@typescript-eslint/parser": "^8.24.0",
