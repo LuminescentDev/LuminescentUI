@@ -37,7 +37,7 @@
     "eslint-plugin-qwik": "^1.8.0",
     "postcss": "^8.4.41",
     "qwik-ionicons": "^1.0.5",
-    "tailwindcss": "3.4.10",
+    "tailwindcss": "4.0.12",
     "typescript": "5.5.4",
     "undici": "^6.19.8",
     "vite": "^5.4.2",
