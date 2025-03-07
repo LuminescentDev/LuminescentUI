@@ -97,7 +97,7 @@ importers:
         version: 5.5.4
       undici:
         specifier: ^6.19.8
-        version: 6.19.8
+        version: 7.4.0
       vite:
         specifier: ^5.4.2
         version: 5.4.2(@types/node@22.4.2)(lightningcss@1.29.1)
@@ -143,7 +143,7 @@ importers:
         version: 8.57.0
       eslint-plugin-qwik:
         specifier: latest
-        version: 1.12.0(eslint@8.57.0)(typescript@5.7.3)
+        version: 1.12.1(eslint@8.57.0)(typescript@5.7.3)
       tailwindcss:
         specifier: 4.0.6
         version: 4.0.6
@@ -152,7 +152,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: '*'
-        version: 6.19.2
+        version: 7.4.0
       vite:
         specifier: ^6.1.0
         version: 6.1.0(@types/node@22.13.2)(jiti@2.4.2)(lightningcss@1.29.1)(tsx@4.19.2)(yaml@2.7.0)
@@ -2485,8 +2485,8 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  consola@3.2.3:
-    resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
+  consola@3.4.0:
+    resolution: {integrity: sha512-EiPU8G6dQG0GFHNR8ljnZFki/8a+cQwEQ+7wpxdChl02Q8HXlwEZWD5lqAF8vC2sEC3Tehr8hy7vErz88LHyUA==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
   convert-source-map@2.0.0:
@@ -2734,8 +2734,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-plugin-qwik@1.12.0:
-    resolution: {integrity: sha512-tOQutLiIUd2RRVOLeRwYedWLG6MzdCZM9nUpByZn2AgsW55NPJXXrY744YQ+AsVLE6g5sw7GhuL4qoAEX666Xg==}
+  eslint-plugin-qwik@1.12.1:
+    resolution: {integrity: sha512-TcRmlddWP1Qk0TcwLcS6Hu7+DYnpiwR+DvsPNqpcqOpModjXgtQ2keBvjCJ0y2Zoe18QPE1FES3HWnrHMhnKig==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       eslint: ^8.57.0
@@ -3580,8 +3580,8 @@ packages:
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
-  node-fetch-native@1.6.4:
-    resolution: {integrity: sha512-IhOigYzAKHd244OC0JIMIUrjzctirCmPkaIfhDeGcEETWof5zKYUW7e7MYvChGWh/4CJeXEgsRyGzuF334rOOQ==}
+  node-fetch-native@1.6.6:
+    resolution: {integrity: sha512-8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==}
 
   node-forge@1.3.1:
     resolution: {integrity: sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA==}
@@ -4231,8 +4231,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ufo@1.5.3:
-    resolution: {integrity: sha512-Y7HYmWaFwPUmkoQCUIAYpKqkOf+SbVj/2fJJZ4RJMCfZp0rTGwRbzQD+HghfnhKOjL9E01okqz+ncJskGYfBNw==}
+  ufo@1.5.4:
+    resolution: {integrity: sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==}
 
   unbox-primitive@1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
@@ -4243,17 +4243,13 @@ packages:
   undici-types@6.20.0:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
 
-  undici@5.28.4:
-    resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
+  undici@5.28.5:
+    resolution: {integrity: sha512-zICwjrDrcrUE0pyyJc1I2QzBkLM8FINsgOrt6WjA+BgajVq9Nxu2PbFFXUrAggLfDXlZGZBVZYw7WNV5KiBiBA==}
     engines: {node: '>=14.0'}
 
-  undici@6.19.2:
-    resolution: {integrity: sha512-JfjKqIauur3Q6biAtHJ564e3bWa8VvT+7cSiOJHFbX4Erv6CLGDpg8z+Fmg/1OI/47RA+GI2QZaF48SSaLvyBA==}
-    engines: {node: '>=18.17'}
-
-  undici@6.19.8:
-    resolution: {integrity: sha512-U8uCCl2x9TK3WANvmBavymRzxbfFYG+tAu+fgx3zxQy3qdagQqBLwJVrdyO1TBfUXvfKveMKJZhpvUYoOjM+4g==}
-    engines: {node: '>=18.17'}
+  undici@7.4.0:
+    resolution: {integrity: sha512-PUQM3/es3noM24oUn10u3kNNap0AbxESOmnssmW+dOi9yGwlUSi5nTNYl3bNbTkWOF8YZDkx2tCmj9OtQ3iGGw==}
+    engines: {node: '>=20.18.1'}
 
   unenv-nightly@1.10.0-1717606461.a117952:
     resolution: {integrity: sha512-u3TfBX02WzbHTpaEfWEKwDijDSFAHcgXkayUZ+MVDrjhLFvgAJzFGTSTmwlEhwWi2exyRQey23ah9wELMM6etg==}
@@ -5375,7 +5371,7 @@ snapshots:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.3.2
-      undici: 6.19.8
+      undici: 7.4.0
       valibot: 0.42.1(typescript@5.7.3)
       vfile: 6.0.2
       vite: 6.1.0(@types/node@22.13.2)(jiti@2.4.2)(lightningcss@1.29.1)(tsx@4.19.2)(yaml@2.7.0)
@@ -5392,7 +5388,7 @@ snapshots:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.3.2
-      undici: 6.19.8
+      undici: 7.4.0
       vfile: 6.0.1
       vite: 5.4.2(@types/node@22.4.2)(lightningcss@1.29.1)
       vite-imagetools: 7.0.4(rollup@4.34.6)
@@ -6801,7 +6797,7 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  consola@3.2.3: {}
+  consola@3.4.0: {}
 
   convert-source-map@2.0.0: {}
 
@@ -7157,7 +7153,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-plugin-qwik@1.12.0(eslint@8.57.0)(typescript@5.7.3):
+  eslint-plugin-qwik@1.12.1(eslint@8.57.0)(typescript@5.7.3):
     dependencies:
       '@typescript-eslint/utils': 8.24.0(eslint@8.57.0)(typescript@5.7.3)
       eslint: 8.57.0
@@ -8153,7 +8149,7 @@ snapshots:
       exit-hook: 2.2.1
       glob-to-regexp: 0.4.1
       stoppable: 1.1.0
-      undici: 5.28.4
+      undici: 5.28.5
       workerd: 1.20240806.0
       ws: 8.18.0
       youch: 3.3.3
@@ -8199,7 +8195,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  node-fetch-native@1.6.4: {}
+  node-fetch-native@1.6.6: {}
 
   node-forge@1.3.1: {}
 
@@ -9070,7 +9066,7 @@ snapshots:
 
   typescript@5.7.3: {}
 
-  ufo@1.5.3: {}
+  ufo@1.5.4: {}
 
   unbox-primitive@1.0.2:
     dependencies:
@@ -9083,22 +9079,20 @@ snapshots:
 
   undici-types@6.20.0: {}
 
-  undici@5.28.4:
+  undici@5.28.5:
     dependencies:
       '@fastify/busboy': 2.1.0
 
-  undici@6.19.2: {}
-
-  undici@6.19.8: {}
+  undici@7.4.0: {}
 
   unenv-nightly@1.10.0-1717606461.a117952:
     dependencies:
-      consola: 3.2.3
+      consola: 3.4.0
       defu: 6.1.4
       mime: 3.0.0
-      node-fetch-native: 1.6.4
+      node-fetch-native: 1.6.6
       pathe: 1.1.2
-      ufo: 1.5.3
+      ufo: 1.5.4
 
   unicode-canonical-property-names-ecmascript@2.0.0: {}
 
