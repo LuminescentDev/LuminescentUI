@@ -7,7 +7,7 @@
     "yarn": "please-use-pnpm",
     "pnpm": ">=8.6.12"
   },
-  "packageManager": "pnpm@10.3.0",
+  "packageManager": "pnpm@10.6.2",
   "scripts": {
     "build:release": "pnpm build && pnpm release",
     "build": "pnpm nx run-many -t build --parallel --output-style=stream",
